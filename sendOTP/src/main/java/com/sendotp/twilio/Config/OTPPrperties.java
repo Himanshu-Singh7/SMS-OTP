@@ -11,7 +11,7 @@ import lombok.Setter;
 @Setter
 public class OTPPrperties {
 
-	 @Value("${twilio.accountSid}")
+	    @Value("${twilio.accountSid}")
 	    private String accountSid;
 
 	    @Value("${twilio.authToken}")
